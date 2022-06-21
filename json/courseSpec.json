@@ -1,0 +1,245 @@
+{
+	"category": "Baninfo",
+	"info": [
+		{
+			"id": "53",
+			"week": "08:00-18:00",
+            "weekend": "08:00-16:00",
+            "holes": "18, 9"
+		},
+		{
+			"id": "54",
+            "week": "10:00-16:00",
+			"weekend": "10:00-16:00",
+            "holes": "18"
+		},
+        {
+			"id": "55",
+			"week": "08:00-18:00",
+            "weekend": "09:00-17:00",
+            "holes": "9"
+		},
+		{
+			"id": "56",
+            "week": "10:00-17:00",
+			"weekend": "11:00-15:00",
+            "holes": "12"
+		},
+        {
+			"id": "57",
+			"week": "Varierande",
+            "weekend": "Varierande",
+            "holes": "två 18"
+		},
+		{
+			"id": "58",
+            "week": "09:00-17:00",
+			"weekend": "08:00-14:00",
+            "holes": "18"
+		},
+        {
+			"id": "59",
+			"week": "09:00-15:00",
+			"weekend": "09:00-12:00",
+            "holes": "18"
+		},
+		{
+			"id": "60",
+            "week": "Ingen info",
+			"weekend": "Ingen info",
+            "holes": "9"
+		},
+        {
+			"id": "61",
+			"week": "09:00-18:00",
+            "weekend": "09:00-17:00",
+            "holes": "6, tolv tees"
+		},
+		{
+			"id": "62",
+            "week": "11:00-14:30",
+			"weekend": "11:00-14:30",
+            "holes": "18"
+		},
+        {
+			"id": "63",
+            "week": "Ingen info",
+			"weekend": "Ingen info",
+            "holes": "18"
+		},
+        {
+			"id": "64",
+			"week": "11:00-15:00",
+            "weekend": "11:00-15:00",
+            "holes": "18"
+		},
+		{
+			"id": "65",
+            "week": "08:00-18:00",
+			"weekend": "08:00-20:00",
+            "holes": "två 18, 6-korthålsbana"
+		},
+        {
+			"id": "66",
+			"week": "09:00-19:00",
+            "weekend": "09:00-17:00",
+            "holes": "18, 6-korthålsbana"
+		},
+		{
+			"id": "67",
+            "week": "11:00-15:00",
+			"weekend": "11:00-15:00",
+            "holes": "två 18"
+		},
+        {
+			"id": "68",
+            "week": "09:00-18:00",
+			"weekend": "08:00-16:00",
+            "holes": "18"
+		},
+        {
+			"id": "69",
+			"week": "Ingen info",
+            "weekend": "Ingen info",
+            "holes": "9 med 18 olika tee"
+		},
+		{
+			"id": "70",
+            "week": "10:00-14:00",
+			"weekend": "10:00-14:00",
+            "holes": "18"
+		},
+        {
+			"id": "71",
+			"week": "Ingen info",
+            "weekend": "Ingen info",
+            "holes": "18"
+		},
+		{
+			"id": "72",
+            "week": "09:00-16:00",
+			"weekend": "09:00-16:00",
+            "holes": "18"
+		},
+        {
+			"id": "73",
+            "week": "09:00-16:00",
+			"weekend": "09:00-16:00",
+            "holes": "18"
+		},
+        {
+			"id": "74",
+			"week": "09:00-15:00",
+            "weekend": "09:00-15:00",
+            "holes": "18"
+		},
+		{
+			"id": "75",
+            "week": "Ingen info",
+			"weekend": "Ingen info",
+            "holes": "18"
+		},
+        {
+			"id": "76",
+			"week": "Ingen info",
+            "weekend": "Ingen info",
+            "holes": "18"
+		},
+		{
+			"id": "77",
+            "week": "Ingen info",
+			"weekend": "Ingen info",
+            "holes": "18"
+		},
+        {
+			"id": "78",
+            "week": "08:00-18:00",
+			"weekend": "08:00-16:00",
+            "holes": "18"
+		},
+        {
+			"id": "79",
+			"week": "07:30-18:00",
+            "weekend": "07:30-17:00",
+            "holes": "5 tees"
+		},
+		{
+			"id": "80",
+            "week": "08:00-16:00",
+			"weekend": "08:00-16:00",
+            "holes": "18"
+		},
+        {
+			"id": "81",
+			"week": "08:00-16:00",
+            "weekend": "08:00-16:00",
+            "holes": "18, 9"
+		},
+		{
+			"id": "82",
+            "week": "11:00-15:00",
+			"weekend": "11:00-15:00",
+            "holes": "18"
+		},
+        {
+			"id": "83",
+            "week": "11:30-14:00",
+			"weekend": "11:30-15:00",
+            "holes": "18, 9-korthålsbana"
+		},
+        {
+			"id": "84",
+			"week": "Ingen info",
+            "weekend": "Ingen info",
+            "holes": "9"
+		},
+		{
+			"id": "85",
+            "week": "11:30-14:30",
+			"weekend": "12:00-15:30",
+            "holes": "18, 9-korthålsbana"
+		},
+        {
+			"id": "86",
+			"week": "Ingen info",
+            "weekend": "Ingen info",
+            "holes": "9"
+		},
+		{
+			"id": "87",
+            "week": "Ingen info",
+			"weekend": "Ingen info",
+            "holes": "9"
+		},
+        {
+			"id": "88",
+            "week": "Ingen info",
+			"weekend": "Ingen info",
+            "holes": "18"
+		},
+        {
+			"id": "89",
+			"week": "Ingen info",
+            "weekend": "Ingen info",
+            "holes": "18"
+		},
+		{
+			"id": "90",
+            "week": "11.30-18:00",
+			"weekend": "11.30-18:00",
+            "holes": "18, 9-korthålsbana"
+		},
+        {
+			"id": "91",
+			"week": "Ingen info",
+            "weekend": "Ingen info",
+            "holes": "18"
+		},
+		{
+			"id": "92",
+            "week": "10:00-18:00",
+			"weekend": "10:00-16:00",
+            "holes": "18"
+		}
+	]
+}

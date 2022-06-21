@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+html {
+    font-size: 16px;
+    font-family:'Roboto', sans-serif;
+}
+
+@media (min-width: 300px) {
+    body {
+        justify-content: center;
+        max-width: 100%;
+        max-height: 100%;
+        background-color: white;
+        margin: 0;
+        display: grid;
+        grid-template-columns:100%;
+        grid-template-rows: 60px auto auto;
+        grid-template-areas:
+            "nav"
+            "header"
+            "main";
+    }
+}
+
+.homebtn { 
+    background-image: url(../img/icons8-home\ \(2\).svg);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    float:right;
+    margin: 5px 3px;
+}
+
+nav {
+    grid-area: nav;
+}
+
+header {
+    grid-area: header;
+    justify-content: center;
+}
+
+main {
+    grid-area: main;
+}
+
+#gen-info div {
+    padding: 5px;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 40px;
+    margin-top: 0;
+}
+h1, h2, h3{
+    text-align: center;
+    font-weight: lighter;
+}
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #3A512D;
+    font-weight:lighter;
+}
+
+#map {
+    height: 12em;
+    padding: 20px 0 20px 0;
+    width: 100%;
+}
+
+#price, #webbplats, #tele, #adress {
+    font-size: 16px;
+    text-align: center;
+}
+
+#info, #recensionerBtn {
+    border-radius: 50px;
+    font-size: larger;
+    background-color: #3A512D;
+    padding: 8px 40px;
+    color: white;
+    text-decoration: none;
+}
+
+#recensioner p {
+    margin: 0;
+}
+
+.review {
+    margin-top: 15px;
+}
+
+#links {
+    margin: 40px;
+}
+
+#links p {
+    margin: 25px;
+    text-align: center;
+}
+
+#open {
+    font-weight: lighter;
+    margin: 0;
+}
+
+.icon {
+    padding: 20px;
+    background-size: 40px;
+    margin-left: 5px;
+}
+
+#weatherapi {
+    text-align: center;
+    margin: 15px 0 40px 0;
+    height: auto;
+}
+
+#weather {
+    display: flex;
+    justify-content: center;
+    background-color: #3a512d97;
+    padding: 5px;
+}
+
+#weather div {
+    font-size: 1.2em;
+    margin: 4px;
+}
+
+div .weatherTemp {
+    font-size: 0.8em;
+}
+
+.weekdays, .weekends {
+    font-family: 'Roboto';
+    font-weight: normal;
+}
+
+#openSecond {
+    margin: 0;
+}
+
+.openinghours1 {
+    display: inline-block;
+}
+
+#clubInfo {
+    text-align: center;
+}
+
+#tele, #adress {
+    display: inline-flex;
+    margin: 0;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.inf {
+    font-size: 16px;
+}
+
+#time1, #time2 {
+    font-size: 18px;
+    float: right;
+    margin: 0;  
+    font-weight: lighter;  
+}
+
+#picture1, #picture2{
+    min-height: 190px;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 3px;
+    background-position: center;
+}
+
+section {
+    background-color: #3a512d56;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 10px;
+}
+
+section h2 {
+    color: black;
+}
+
+.openinghours{
+    margin: 5%;
+    width: auto;
+    text-align: center;
+}
+
+.reviewName{
+    font-family: 'roboto';
+    font-size:17px;
+    font-weight: bold;
+}
+
+.comment {
+    font-family: 'roboto';
+}
+
+.time {
+    font-size: 11px;
+}
+
+a {
+    color: black;
+}
+
+@media (min-width: 900px) {
+    body {
+    height: 100%;
+    color: #000000;
+    font-family: 'roboto';
+	display: grid;
+	grid-template-columns: auto minmax(100px,900px) auto;
+	grid-template-rows: min-content auto min-content;
+	grid-template-areas:
+		"nav nav nav"
+		". header ."
+		"main main main"
+      
+    }
+    #picture1, #picture2{
+        min-height: 500px;
+    }
+    
+  }

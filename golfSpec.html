@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" type="text/css" href="css/stylespec.css">
+	<script src="https://smapi.lnu.se/api/?api_key=API-KEY"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?DIN-API-KEY"></script>
+	<script src="js/scriptSpec.js"></script>
+    <script src="js/cookies.js"></script>
+<title>Information om bana</title>
+</head>
+<body>
+    <nav><a href="index.html" class="homebtn"></a></nav>
+        
+    <header>
+        <h1 id="courseName"></h1>  
+        <div id="map"></div> 
+        <h3 id="holes">Antal hål: </h3> 
+        <div id="links">
+            <p><a href="#A" id="info">Information</a></p>
+            <p><a href="#B" id="recensionerBtn">Recensioner</a></p>
+        </div>
+    </header>
+    <main>
+        <div id="weatherapi">
+            <h2>Väder</h2>
+            <div id="weather">
+                <div id="day0"></div><div id="day1"></div><div id="day2"></div><div id="day3"></div><div id="day4"></div>
+            </div>
+        </div>
+
+        <div id="gen-info">
+            <div class="openinghours">
+                <h2 id="open">Öppettider</h2>
+                <h3 id="openSecond">kansli & restaurang</h3>
+            <div class="openinghours1">
+                <h3 class="weekdays">Mån - Fre</h3>
+                <p id="time1">06.00-17.00</p>
+            </div>
+            <div class="openinghours1">
+                <h3 class="weekends">Lör - Sön</h3>
+                <p id="time2">10.00-15.00</p>
+            </div>
+            </div>
+            <a id="B"></a>
+            <div id="prices">
+                <h2>Priser</h2>
+                <p id="price"></p>
+            </div>
+            <div id="clubInfo">
+                <h2>Klubbens info</h2>
+                <p class="inf" id="webbplats"></p>
+            </div>
+        </div>
+
+        <section>
+            <h2>Recensioner</h2>
+            <div id="recensioner">
+                <div class="review">
+                    <p class="reviewName">Oscar Svensson</p>
+                    <p class="comment">Banan var väldigt fin att spela på. Gillar att det var stor variation på hålen.</p>
+                    <p class="time">4 years ago</p>
+                </div>
+            </div>
+        </section>
+        <div class="pictures">
+            <div id="picture1"></div>
+            <div id="picture2"></div> 
+        </div> 
+        <a id="A"></a>
+        <section>
+            <h2>Information</h2> 
+            <p id="abstract"></p> 
+            <p id="text"></p>
+        </section>  
+    </main>
+</body>
+</html>
